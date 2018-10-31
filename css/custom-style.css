@@ -1,6 +1,206 @@
+.page-container{
+    width:100%;
+    height: 100%;
+    display: flex;
+}
 .mainContainer{
-    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    background-color: #fffef2;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
 }
 .sidebar-left{
-    background-color: lightblue;
+    width: 30%;
+    height: 100%;
+    background-color: cadetblue;
+    color:aliceblue;
+}
+.personal-info-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 90vh;
+    /* border: 1px dotted; */
+    width: 75%;
+    flex-direction: column;
+}
+.personal-info{
+    height: 30%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted; */
+}
+.info-first-name, .info-last-name{
+    font-size: 40px;
+}
+.info-first-name{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 500;
+    color: aliceblue;
+}
+.info-last-name{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 500;
+}
+.info-tagline{
+    color: aliceblue;
+}
+.description-container{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted; */
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.description{
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted; */
+}
+.main-content{
+    height: 100vh;
+    width: 70%;
+    background-image: url("../images/homepage-photo.JPG");
+    display: flex;
+    background-size: cover;
+}
+.know-more-space{
+    height: 100vh;
+    width: 50%;
+    /* border: 1px white dotted; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-buttons-space{
+    height: 100vh;
+    width: 50%;
+    /* border: 1px white dotted; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.social-buttons{
+    /* border: 1px white dotted; */
+    height: 7vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.github-link{
+    /* border: 1px white dotted; */
+    height: 7vh;
+    width: 50%;
+}
+
+/* Side Menu */
+.side-menu-container{
+    width: 5%;
+    height: 100vh;
+}
+.side-menu{
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu-item{
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-main-container{
+    width: 95%;
+    height: 100vh;
+    background-color: #fffef2;
+}
+.pi-tile{
+    width: 30%;
+    height: 50vh;
+    background-color: white;
+    border-width:5px;  
+    border-style:groove;
+}
+
+.sk-content, .ex-content, .pr-content, .ed-content, .ac-content, .pi-content {
+    height: 80%;
+    /* border: 1px dotted black; */
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sk-header, .ex-header, .pr-header, .ed-header, .ac-header, .pi-header {
+    height: 10vh;
+    /* border: 1px dotted black; */
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 60px;
+    margin: 20px;
+}
+
+/* Skills Page */
+.sk-skills-type {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 20px;
+}
+
+.skill-bars-wrapper{
+    width: 90%;
+}
+
+/* Experience Page */
+.ex-main-container {
+    width: 45%;
+    height: 100%;
+    margin: 20px;
+    /* border: 1px dotted black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.ex-sub-container{
+    width: 90%;
+    height: 50vh;
+    margin: 5%;
+    /* border: 1px dotted black; */
+}
+
+/* Projects Page */
+.pr-content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    /* border: 1px dotted black; */
+    justify-content: inherit;
+}
+.pr-main-container {
+    width: 100%;
+    margin: 20px;
+    /* border: 1px dotted black; */
+}
+
+/* Education Page */
+.ed-main-container{
+    border: 5px ridge;
+    background: white;
+    padding: 50px;
 }

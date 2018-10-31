@@ -1,0 +1,13 @@
+<div class="side-menu-container" ng-include="'view/side-menu.html'"></div>
+<div class="page-main-container">
+    <div class="pr-header">
+        Projects
+    </div>
+    <div class="pr-content">
+        <div class="pr-main-container" ng-repeat="project in projects">
+            <h2 class="pr-title" ng-bind="project.title"></h2>
+            <h4 class="pr-tech" ng-bind="project.tech">Java, AngularJS, Spring, MySQL</h4>
+            <p class="pr-description" ng-bind-html="project.description"></p>
+        </div>
+    </div>
+</div>
